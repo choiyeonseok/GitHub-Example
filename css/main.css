@@ -524,4 +524,27 @@ footer .logo:hover svg {
         padding: 14px 30% 24px;
     }
 
+    /* WHERE IS */
+    .section--where-is .inner {
+        max-width: none;
+        padding: 88px 20px 0 20px;
+    }
+    
+    /* PRICING CARD */
+    .section--pricing .inner {
+        max-width: none;
+        padding: 88px 20px;
+    }
+    .section--pricing .card .cell2 {
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    footer .inner {
+        padding: 88px 20px;
+    }
+    footer .logo {
+        display: none;
+    }
+
 }
