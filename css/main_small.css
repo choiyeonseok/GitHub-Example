@@ -29,3 +29,16 @@
     border-left: none;
     border-top: 1px solid #e5e5e5;
 }
+
+/* FOOTER */
+footer .site-links {
+    display: block;
+    float: none;
+    text-align: center;
+}
+footer .site-links:first-child {
+    margin-bottom: 20px;
+}
+footer .site-links li {
+    display: inline;
+}
