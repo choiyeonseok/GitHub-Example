@@ -310,8 +310,7 @@ header .sub-menu li a:hover {
     max-width: 1200px;
 }
 .section--feature .tiles ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+
 }
 .section--feature .tiles li {
     padding: 34px 24px;
@@ -319,6 +318,8 @@ header .sub-menu li a:hover {
     line-height: 1.5;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
+    float: left;
+    width: 25%;
 }
 .section--feature .tiles li:last-child {
     border-right: none;
@@ -507,6 +508,20 @@ footer .logo:hover svg {
         width: auto;
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    /* FEATURE */
+    .section--feature .summary {
+        padding: 66px 20px 0 20px;
+    }
+    .section--feature .tiles li {
+        width: 50%;
+    }
+    .section--feature .tiles li:nth-child(2) {
+        border-right: none;
+    }
+    .section--feature .tiles li img {
+        padding: 14px 30% 24px;
     }
 
 }
